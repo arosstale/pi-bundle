@@ -1,0 +1,24 @@
+{
+  "name": "@artale/pi-bundle",
+  "version": "1.0.0",
+  "description": "The essential Pi extension bundle by artale. One install, 10 best extensions. Context management, memory, safety, productivity.",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "artale",
+  "repository": { "type": "git", "url": "https://github.com/arosstale/pi-bundle.git" },
+  "files": ["src/extension.ts"],
+  "pi": { "extensions": ["src/extension.ts"] },
+  "dependencies": {
+    "@artale/pi-compact": "^1.0.0",
+    "@artale/pi-lean": "^1.0.0",
+    "@artale/pi-rewind": "^1.0.0",
+    "@artale/pi-tokens": "^1.0.0",
+    "@artale/pi-memory": "^1.0.0",
+    "@artale/pi-watch": "^1.0.0",
+    "@artale/pi-procs": "^1.0.0",
+    "@artale/pi-caffeinate": "^1.0.0",
+    "@artale/pi-stash": "^1.0.0",
+    "@artale/pi-context": "^1.0.0"
+  },
+  "peerDependencies": { "@mariozechner/pi-coding-agent": "*" }
+}
